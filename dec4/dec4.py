@@ -71,4 +71,3 @@ for guard, minutes in guardTimes.items():
 
 mostMinGuard = sorted(guardsMaxMinutes, key=lambda x: x[2])[-1]
 print(int(mostMinGuard[0]) * mostMinGuard[1])
-
